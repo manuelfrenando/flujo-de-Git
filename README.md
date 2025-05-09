@@ -1,2 +1,1 @@
-# flujo-de-Git
-manu
+/github.com
