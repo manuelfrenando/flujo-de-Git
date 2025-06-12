@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>PROYECTO
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>PROYECTO NODE</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <p>Desarrollador web apasionado por la tecnología y la innovación.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos</h2>
+    <div class="project">
+      <h3>App Clima</h3>
+      <p>Aplicación que muestra el clima usando una API externa.</p>
+    </div>
+    <div class="project">
+      <h3>ToDo List</h3>
+      <p>Lista de tareas con almacenamiento local en el navegador.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Correo:</label>
+      <input type="email" id="email" required />
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 NODE</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
